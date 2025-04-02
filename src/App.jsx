@@ -171,7 +171,7 @@ const App = () => {
             <span className="mr-2">📞</span> +2347069054024
           </p>
           <p className="flex items-center mb-2">
-            <span className="mr-2">📞</span> +2348081941650
+            <span className="mr-2">📞</span> +2348084941650
           </p>
           <p className="flex items-center mb-2">
             <span className="mr-2">📧</span>
