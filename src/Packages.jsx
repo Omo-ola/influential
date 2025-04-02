@@ -8,7 +8,7 @@ const Packages = () => {
         {/* Simple Gather Package */}
         <div className="bg-white shadow-lg rounded-lg p-6 text-center">
           <img
-            src="/event.jpg"
+            src="/abu-2.jpg"
             alt="Simple Gather Package"
             className="w-full h-48 object-cover rounded-md mb-4"
           />
@@ -30,7 +30,7 @@ const Packages = () => {
         {/* Event Essential Package */}
         <div className="bg-white shadow-lg rounded-lg p-6 text-center">
           <img
-            src="/event.jpg"
+            src="/abu-7.jpg"
             alt="Event Essential Package"
             className="w-full h-48 object-cover rounded-md mb-4"
           />
@@ -53,7 +53,7 @@ const Packages = () => {
         {/* Elite Access Package */}
         <div className="bg-white shadow-lg rounded-lg p-6 text-center">
           <img
-            src="/event.jpg"
+            src="/abu-6.jpg"
             alt="Elite Access Package"
             className="w-full h-48 object-cover rounded-md mb-4"
           />

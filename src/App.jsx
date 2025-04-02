@@ -4,6 +4,8 @@ import Services from "./Service";
 // import Contact from "./Contact";
 import AboutUs from "./AboutUs";
 import Footer from "./Footer";
+import Gallery from "./Gallery";
+import MicroPackage from "./MicroPackage";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -61,6 +63,16 @@ const Navbar = () => {
             </a>
           </li>
           <li>
+            <a href="#microPackages" className="hover:text-yellow-400">
+              Special
+            </a>
+          </li>
+          <li>
+            <a href="#gallery" className="hover:text-yellow-400">
+              Gallery
+            </a>
+          </li>
+          <li>
             <a href="#services" className="hover:text-yellow-400">
               Services
             </a>
@@ -104,7 +116,8 @@ const HeroSection = () => {
   );
 };
 
-const Section = ({ id, title, logo, children }) => {
+const Section = (prop) => {
+  const { id, title, logo, children } = prop;
   return (
     <section
       id={id}
@@ -129,12 +142,23 @@ const App = () => {
       <Section id="about" title="About us" logo="ℹ️">
         <AboutUs />
       </Section>
-      <Section id="packages" title="Our packages" logo="🎁">
+      <Section id="packages" title="Our Packages" logo="🎁">
         <Packages />
+      </Section>
+      <Section
+        id="microPackages"
+        title="Our Special Barbecue Packages"
+        logo="🍖"
+      >
+        <MicroPackage />
       </Section>
       <Section id="services" title="Our Services" logo="🎉">
         <Services />
       </Section>
+      <Section id="gallery" title="Our Gallery" logo="📸">
+        <Gallery />
+      </Section>
+
       <Section id="reservations" title="Make a Reservation" logo="📅">
         {/* <Contact /> */}
         <div className="bg-[#77CE15] text-white p-8 flex-[3] rounded-2xl">
