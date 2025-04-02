@@ -102,7 +102,7 @@ const HeroSection = () => {
       <div className="relative top-10 z-10 md:flex justify-between w-[90%] gap-10">
         <div className="md:text-left max-w-2xl flex justify-center items-center">
           <h2 className="text-5xl md:text-7xl font-semibold text-black">
-            Inflential Event Planning and Agro-Catering Services
+            Influential Event Planning and Agro-Catering Services
             <span className="text-yellow-400">.</span>
           </h2>
         </div>

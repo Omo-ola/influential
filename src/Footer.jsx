@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="w-[5rem] h-[5rem]">
             <img src="/logo.png" alt="" className="w-full" />
           </div>
-          <p> Inflential Event Planning and Agro-Catering Services</p>
+          <p> Influential Event Planning and Agro-Catering Services</p>
         </div>
 
         {/* Copyright */}
