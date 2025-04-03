@@ -23,7 +23,7 @@ const Packages = () => {
             <li>&bull; 20 Access Cards with QR codes.</li>
           </ul>
           <p className="mt-2 font-semibold">
-            Best For: Birthday parties, family meetups, small reunions.
+            Best For: House parties, family meetups, small reunions.
           </p>
         </div>
 

@@ -91,26 +91,57 @@ const Navbar = () => {
   );
 };
 
+// const HeroSection = () => {
+//   return (
+//     <section
+//       id="home"
+//       className="relative md:h-[80vh] h-screen flex items-center justify-center text-white text-center bg-cover bg-center"
+//       style={{ backgroundImage: "url('/abu-16.jpg')" }}
+//     >
+//       <div className="absolute inset-0 opacity-90"></div>
+//       <div className="relative top-10 z-10 md:flex justify-between w-[90%] gap-10">
+//         <div className="md:text-left max-w-2xl flex justify-center items-center">
+//           <h2 className="text-5xl md:text-7xl font-semibold text-black">
+//             Influential Event Planning and Agro-Catering Services
+//             <span className="text-yellow-400">.</span>
+//           </h2>
+//         </div>
+//         <div className="flex justify-center items-center">
+//           <div className="w-[20rem] h-[20rem] rounded-2xl">
+//             <img src="/BgLogo.png" alt="company logo" />
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+
+
+
 const HeroSection = () => {
   return (
     <section
       id="home"
       className="relative md:h-[80vh] h-screen flex items-center justify-center text-white text-center bg-cover bg-center"
-      style={{ backgroundImage: "url('')" }}
+      style={{ backgroundImage: "url('/abu-16.jpg')" }}
     >
-      <div className="absolute inset-0 opacity-90"></div>
-      <div className="relative top-10 z-10 md:flex justify-between w-[90%] gap-10">
-        <div className="md:text-left max-w-2xl flex justify-center items-center">
-          <h2 className="text-5xl md:text-7xl font-semibold text-black">
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black opacity-80"></div>
+
+      {/* <div className="relative top-10 z-10 md:flex justify-between w-[90%] gap-10"> */}
+      <div className="relative top-10 z-10 md:flex justify-center w-[90%] gap-10">
+        <div className="md:text-left max-w-4xl flex justify-center items-center">
+          <h2 className="text-5xl md:text-7xl font-semibold text-white">
             Influential Event Planning and Agro-Catering Services
             <span className="text-yellow-400">.</span>
           </h2>
         </div>
-        <div className="flex justify-center items-center">
+        {/* <div className="flex justify-center items-center">
           <div className="w-[20rem] h-[20rem] rounded-2xl">
             <img src="/BgLogo.png" alt="company logo" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
@@ -145,11 +176,7 @@ const App = () => {
       <Section id="packages" title="Our Packages" logo="🎁">
         <Packages />
       </Section>
-      <Section
-        id="microPackages"
-        title="Our Special Barbecue Packages"
-        logo="🍖"
-      >
+      <Section id="microPackages" title="Our Special Packages" logo="🍖">
         <MicroPackage />
       </Section>
       <Section id="services" title="Our Services" logo="🎉">

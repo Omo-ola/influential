@@ -18,6 +18,18 @@ const MicroPackage = () => {
       desc: "A rich combination of assorted meats grilled with a unique blend of natural spices for an unforgettable taste.",
       bestFor: "VIP events, exclusive celebrations, high-end private parties.",
     },
+    {
+      title: "Consultancy",
+      img: "/abu_2.jpg",
+      desc: "Ideal for professional information on setting up of hotels,restaurants,fast foods outlets abd agro-businesses.",
+      bestFor: "Hotel ,Agro-catering biz.",
+    },
+    {
+      title: "Catering Academics",
+      img: "/abu_1.jpg",
+      desc: "Ideal for SIWES and IT students and diploma in short course programs",
+      // bestFor: "VIP events, exclusive celebrations, high-end private parties.",
+    },
   ];
 
   return (
@@ -40,9 +52,11 @@ const MicroPackage = () => {
               {item.title}
             </h3>
             <p className="text-gray-700 mt-2">{item.desc}</p>
-            <p className="mt-2 font-semibold text-gray-900">
-              Best For: {item.bestFor}
-            </p>
+            {item.bestFor && (
+              <p className="mt-2 font-semibold text-gray-900">
+                Best For: {item.bestFor}
+              </p>
+            )}
           </div>
         ))}
       </div>
