@@ -136,7 +136,7 @@ const HeroSection = () => {
         </div>
         <div className="flex justify-center items-center">
           <div className="w-[20rem] h-[20rem] rounded-2xl">
-            <img src="/abu_3.jpg" alt="company logo" />
+            <img src="/abu_3.png" alt="company logo" />
           </div>
         </div>
       </div>
