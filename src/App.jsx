@@ -126,19 +126,19 @@ const HeroSection = () => {
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black opacity-80"></div>
 
-      {/* <div className="relative top-10 z-10 md:flex justify-between w-[90%] gap-10"> */}
-      <div className="relative top-10 z-10 md:flex justify-center w-[90%] gap-10">
+      <div className="relative top-10 z-10 md:flex justify-between w-[90%] gap-10">
+      {/* <div className="relative top-10 z-10 md:flex justify-center w-[90%] gap-10"> */}
         <div className="md:text-left max-w-4xl flex justify-center items-center">
           <h2 className="text-5xl md:text-7xl font-semibold text-white">
             Influential Event Planning and Agro-Catering Services
             <span className="text-yellow-400">.</span>
           </h2>
         </div>
-        {/* <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <div className="w-[20rem] h-[20rem] rounded-2xl">
             <img src="/abu_3.jpg" alt="company logo" />
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
