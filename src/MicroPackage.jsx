@@ -30,6 +30,12 @@ const MicroPackage = () => {
       desc: "Ideal for SIWES and IT students and diploma in short course programs",
       // bestFor: "VIP events, exclusive celebrations, high-end private parties.",
     },
+    {
+      title: "Shawarma",
+      img: "/abu-17.jpg",
+      desc: "Savor our deliciously seasoned shawarma, layered with tender meats and fresh veggies, wrapped in warm pita and bursting with bold flavors.",
+      // bestFor: "VIP events, exclusive celebrations, high-end private parties.",
+    },
   ];
 
   return (
