@@ -18,10 +18,10 @@ const Packages = () => {
           <p className="text-gray-700 mt-2">
             Ideal for small gatherings that are strictly by invitation (IV).
           </p>
-          <ul className="text-gray-600 text-left mt-2">
+          {/* <ul className="text-gray-600 text-left mt-2">
             <li>&bull; 50 Access Cards without QR codes.</li>
             <li>&bull; 20 Access Cards with QR codes.</li>
-          </ul>
+          </ul> */}
           <p className="mt-2 font-semibold">
             Best For: House parties, family meetups, small reunions.
           </p>
@@ -41,9 +41,9 @@ const Packages = () => {
             Ideal for events requiring registration and a clear headcount.
           </p>
           <ul className="text-gray-600 text-left mt-2">
-            <li>&bull; Unlimited Invitations without QR codes.</li>
-            <li>&bull; Invitees are counted for headcount.</li>
-            <li>&bull; Helps invites feel a sense of belonging.</li>
+            {/* <li>&bull; Unlimited Invitations without QR codes.</li> */}
+            <li>&bull; Guests are counted for headcount.</li>
+            <li>&bull; Helps the guests feel a sense of belonging.</li>
           </ul>
           <p className="mt-2 font-semibold">
             Best For: Corporate events, seminars, large celebrations.
@@ -64,10 +64,10 @@ const Packages = () => {
             Ideal for luxurious, well-organized events.
           </p>
           <ul className="text-gray-600 text-left mt-2">
-            <li>&bull; Price based on planned invitees.</li>
-            <li>&bull; QR-coded access cards for scanning.</li>
-            <li>&bull; Admin rights for managing invites.</li>
-            <li>&bull; Seat reservations for attendees.</li>
+            <li>&bull; Price based on planned guests.</li>
+            {/* <li>&bull; QR-coded access cards for scanning.</li> */}
+            <li>&bull; Admin rights for managing guests.</li>
+            <li>&bull; Seat reservations for guests.</li>
           </ul>
           <p className="mt-2 font-semibold">
             Best For: Exclusive events, galas, weddings, private luxury parties.
