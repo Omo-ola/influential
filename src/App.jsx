@@ -6,6 +6,7 @@ import AboutUs from "./AboutUs";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
 import MicroPackage from "./MicroPackage";
+import SEO from "./SEO";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -165,6 +166,8 @@ const Section = (prop) => {
 const App = () => {
   return (
     <div>
+      <SEO   
+      />
       <Navbar />
       <HeroSection />
       <Section id="about" title="About us" logo="ℹ️">

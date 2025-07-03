@@ -50,11 +50,11 @@ const AboutUs = () => {
               <h2 className="text-xl md:text-4xl font-semibold text-[#77CE15]">
                 Our Mission
               </h2>
-              <p className="text-base md:text-lg leading-relaxed mt-4 text-gray-700 flex-grow">
+              <h3 className="text-base md:text-lg leading-relaxed mt-4 text-gray-700 flex-grow">
                 Our mission is to transform ordinary occasions into
                 extraordinary experiences by providing top-quality services and
                 creative solutions.
-              </p>
+              </h3>
               <p className="text-base md:text-lg leading-relaxed mt-4 text-gray-700">
                 We are dedicated to building lasting relationships with our
                 clients by understanding their unique needs and exceeding
@@ -72,10 +72,10 @@ const AboutUs = () => {
                 developing hospitality concepts using minimal resources to
                 produce world-class, high-quality products.
               </p>
-              <p className="text-base md:text-lg leading-relaxed mt-4 text-gray-700">
+              <h2 className="text-base md:text-lg leading-relaxed mt-4 text-gray-700">
                 We bring passion, creativity, and professionalism to every
                 event. Your satisfaction is our priority!
-              </p>
+              </h2>
             </div>
           </SwiperSlide>
         </Swiper>
