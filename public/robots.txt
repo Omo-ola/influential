@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.agro-cateringservice.com.ng/sitemap.xml
